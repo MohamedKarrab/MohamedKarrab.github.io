@@ -1,5 +1,5 @@
 
-                html
+            html
             {
                 background-image: url(images/bg.jpg) ;
                 background-repeat: no-repeat;
@@ -59,6 +59,17 @@
                 border-radius: 10px;
                 border-color: black;
             }
+
+            #field2
+            {
+                margin-bottom: 4px;
+            }
+            #img2
+            {
+                border: 3px solid;
+                border-radius: 10px;
+            }
             
 
-         
+
+
