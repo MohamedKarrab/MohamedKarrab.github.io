@@ -16,8 +16,8 @@
 
 
 </head>
-    <body>
-        <!------ Header ------>
+    <body class="bg-dark">
+        <!------ Header ----#181414-->
     <header>
         <nav>
             <div class="container-fluid fixed">
@@ -37,22 +37,22 @@
 
         <!------ Home ------>
         <div class="home container">
-            <h1>Mohamed Karrab</h1>
-            <h2>Cybersecurity Enthusiast</h2>
+            <h1 class="text-light">Mohamed Karrab</h1>
+            <h2 class="text-light">Cybersecurity Enthusiast</h2>
             <script src="https://tryhackme.com/badge/1502018" ></script><br/>
 
-            <p>Hello there, this is just the beginning of my web development journey! Besides, I love problem solving, coding and pentesting!<br/>
+            <p class="text-light">Hello there, this is just the beginning of my web development journey! Besides, I love problem solving, coding and pentesting!<br/>
             I like reading books as well!</p>
-            <img class="img" src="images/stuff.jpeg" alt="Cybersecurity" height=90% width=90%><br>
+            <img class="img text-light" src="images/stuff.jpeg" alt="Cybersecurity" height=90% width=90%><br>
         </div>
 
 
         <!------ Skills ------>
         <div class="skills container">
-            <h2>Technical Skills</h2><br>
+            <h2 class="text-light">Technical Skills</h2><br>
             <div>
-                <ul>
-                    <il>
+                <ul class="text-light">
+                    <il >
                         Penetration Testing
                         <p>I worked on this skill with the help of tryhackme website, and other sources.</p>
                     </il>
@@ -70,7 +70,7 @@
                     </il>
                 </ul>
             </div>
-            <div>
+            <div class="text-light">
                 <p>
                     I am also exploring cloud environments
                 </p>
@@ -80,7 +80,7 @@
 
         <!------ Work ------>
         <div class="work container">
-            <h2>My Work</h2><br>
+            <h2 class="text-light">My Work</h2><br>
             <div class="row">
                 <div class="col">
                     <div class="card w-15 h-100">
@@ -113,15 +113,72 @@
 
         <!------ Contact ------>
         <div class="contact container">
-            <h2>Contact me</h2><br>
-            <div>
-                <form>
-                    <input type="text" placeholder="Name"><br>
-                    <input type="email" placeholder="Email address"><br><br>
-                    <textarea placeholder="Your message here"></textarea><br>
-                </form>
+            <h2 class="text-light">Contact me</h2><br>
+            <div class="text-light">
+        
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+
+                        <div class="col">
+                        <label for="NameValidation">Name</label>
+                        <input type="text" class="form-control" id="NameValidation" placeholder="Name"  required>
+                        <div class="invalid-feedback">
+                            Please enter your Name.
+                        </div>
+                    </div>
+                    </div>
+                      
+                    <div class="row">
+                    <div class="col">
+                        <label for="EmailValidation">Email</label>        
+                          <input type="email" class="form-control" id="EmailValidation" placeholder="xyz@example.com" required>
+                          <div class="invalid-feedback">
+                            Please enter a valid Email.
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col">
+                        <label for="MessageValidation">Message</label>
+                        <textarea class="form-control" id="MessageValidation" placeholder="Your message here" rows="5" required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter your message.
+                        </div>
+                    </div>
+
+
+
+                    </div>
+                    
+                    
+                    
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </form>
+                  
+                  <script>
+                  // JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
             </div>
         <div>
 
     </body>
 </html>
+
