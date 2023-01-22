@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <head>
-        
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="style.css"/>
         <meta name="Author" content="Mohamed Karrab">
         <meta name=" keywords" content="cybersecurity,pentesting,ctf,coding,problem solving">
@@ -11,75 +11,96 @@
         <meta name ="Description" content="Mohamed Karrab's personal portfolio,
             a very enthusiastic cybersecurity guy"> 
         <title>Mohamed Karrab</title>
+
+
 </head>
     <body>
-       
-        <h1>Mohamed Karrab</h1>
-        <section>
+        <!------ Header ------>
+    <header>
+        <nav>
+            <div class="container-fluid fixed">
+                <div id="nav_block" class="row">
+                    <button type="button" class="button btn btn-light col">Karrab</button>
+                    <span class="col-7"></span>
+                    <button type="button" class="button btn btn-light col">Home</button>
+                    <button type="button" class="button btn btn-light col">Skills</button>
+                    <button type="button" class="button btn btn-light col">Work</button>
+                    <button type="button" class="button btn btn-light col">Contact</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <br><br>
+
         
-        <h2>Cybersecurity Enthusiast</h2>
-        <script src="https://tryhackme.com/badge/1502018"></script><br/>
+        <!------ Home ------>
+        <section class="home">
+            <h1>Mohamed Karrab</h1>
+            <h2>Cybersecurity Enthusiast</h2>
+            <script src="https://tryhackme.com/badge/1502018" ></script><br/>
 
-        <p>Hello there, this is just the beginning of my web development journey! Besides, I love problem solving, coding and pentesting!<br/>
-        I like reading books as well!</p>
-        <img id="img2" src="images/stuff.jpeg" alt="Cybersecurity" height=97% width=97%>
-        
-    <div>
-        <ul><caption>My interests:</caption>
-            <li>Problem Solving</li>
-            <li>Cybersecurity</li>
-            <li>Reading Books</li>
-            <li>Penetration Testing</li>
-        </ul>
-    </div>
+            <p>Hello there, this is just the beginning of my web development journey! Besides, I love problem solving, coding and pentesting!<br/>
+            I like reading books as well!</p>
+            <img class="img" src="images/stuff.jpeg" alt="Cybersecurity" height=90% width=90%><br>
+        </section>
 
-        <table>
-            <caption>Skills</caption>
-            <tr>
-               <td>     </td> <td>not so good</td><td>medium</td><td>good</td>
-            </tr>
-            <tr>
-                <td>Communication</td><td></td><td>X</td> <td></td>
-            </tr>
-            <tr>
-                <td>Problem solving</td><td></td><td></td><td>X</td>
-            </tr>
-            <tr>
-                <td>Artificial Intelligence</td><td>X</td><td></td><td></td>
-            </tr>
-            
-        </table>
-        email me: <input type="text" name="wirteHere" size="20" maxlength="50" >
-            <input type="submit" value="submit"><br/><br/>
 
-    <form>
-        <label for text>Your name:</label><input type ="text" name="text1" size="20" maxlength="50" >
-        <input type="reset" value="reset">
-    </form>
-    
-            
-        What is your job:<select name="job" size="1">
-            <option value="0"></option>
-            <option value="Plumber">Plumber</option>
-            <option value="Doctor">Doctor</option>
-            <option value="Pentester">Pentester</option>
-            <option value="Engineer">Engineer</option>
-            <option value="Teacher">Teacher</option>
-            <option value="Student">Student</option>
-            <option value="Unemployed">Unemployed</option>
-            <option value="Other">Other</option>
-        </select>
-        <fieldset><legend>More Information</legend>
-            Name: <input type="text">
-            Address: <input type="text">
-        </fieldset> 
+        <!------ Skills ------>
+        <section class="skills">
+            <div><caption>Technical Skills</caption>
+                <ul>
+                    <il>
+                        Penetration Testing
+                        <p>I worked on this skill with the help of tryhackme website, and other sources.</p>
+                    </il>
+                    <il>
+                        C/C++ programming<br>
+                    </il>
+                    <il>
+                        Python scripting<br>
+                    </il>
+                    <il>
+                        Web development
+                        <p>
+                            html, css, bootstrap, javascript (beginner)
+                        </p>
+                    </il>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    I am also exploring cloud environments
+                </p>
+            </div>
+        </section>
 
-        <fieldset id ="field2">
-            <legend>Likes</legend>
-            <input type="checkbox" name="Stuff" value="pets">pets
-            <input type="checkbox" name="OtherStuff" value="rb">Reading books
-        </fieldset>
-    </section>
+
+        <!------ Work ------>
+        <section class="work">
+            <div>
+                <ul>
+                    <il>2D platformer game</il><br>
+                    <img class="img" src="images/2D platformer game.jpg" width="90%" height="90%">
+                    <p>I made a game using unity engine and C#,
+                         I mostly worked on the coding part,
+                         you can visit <a href="https://github.com/MohamedKarrab/2D-platformer-game-KarrabAdventure" target="_blank">
+                            this</a>
+                         github repository to check it out</p>
+                </ul>
+            </div>
+        </section>
+
+
+        <!------ Contact ------>
+        <section class="contact">
+            <div><caption>Contact me</caption>
+                <form>
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email" placeholder="Email address"><br><br>
+                    <textarea placeholder="Your message here"></textarea><br>
+                </form>
+            </div>
+        </section>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
-    
 </html>

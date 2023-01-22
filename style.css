@@ -1,75 +1,71 @@
+html
+{
+    background-image: url(images/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
 
-            html
-            {
-                background-image: url(images/bg.jpg) ;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-            }
-           h1
-            {
-                color: rgb(10, 10, 121);
-                text-align: center;
-                font-size: xx-large;
-                font-weight: bold;
-                border: 3px rgb(12, 3, 85) solid;
-                box-shadow: 2px 2px 2px 2px black;
-                border-radius: 10px;
-            }
-            h2
-            {
-                color: rgb(17, 17, 85);
-                text-align: center;
-                font-size: large;
-                
-                font-weight: bold;
-                text-decoration: underline;
-            }
-           
-            section
-            {
-                text-align: center;
-                font-size: 150%;
-                border: 3px solid black;
-                border-radius: 10px;
-                margin: 0% 25%;
-            }
+*
+{
+    text-align: center;
+}
+.contact
+{
+    border: 2px solid;
+    border-radius: 5px;
+}          
+.img
+{
+    display: inline-block;
+    border: 3px;
+    border-radius: 10px;
+}
+.work
+{
+  
+}
+.skills
+{
 
-            td,tr
-            {
-                border: solid black
-            }
-            table
-            {
-                border-collapse: collapse;
-                caption-side: top;
-                margin: auto;
-            }
-            div
-            {
-                text-align: center;
-            }
-            ul,nav
-            {
-                text-align: left;
-                display: inline-block;
-            }
-            fieldset
-            {
-                border-radius: 10px;
-                border-color: black;
-            }
-
-            #field2
-            {
-                margin-bottom: 4px;
-            }
-            #img2
-            {
-                border: 3px solid;
-                border-radius: 10px;
-            }
+}
+ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+.nav_list
+{
+    
+}
+.nav_item
+{
+    
+}
+.fixed
+{
+    position: fixed;
+}
+#nav_block
+{
+    background-color: #f8f9fa;
+}
+          
             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
