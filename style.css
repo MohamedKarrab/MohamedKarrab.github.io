@@ -18,7 +18,15 @@
 {
     background-color: #f8f9fa;
 }
-          
+html
+{
+    scroll-behavior: smooth;
+}
+#nav_bar
+{
+    z-index: 99;    
+}
+
             
 
 
