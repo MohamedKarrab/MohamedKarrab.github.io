@@ -1,4 +1,5 @@
 
+
 *
 {
     text-align: center;
@@ -44,9 +45,7 @@ section {
     color: var(--bs-nav-link-hover-color);
   }
   
-  a:focus, a:hover, a:active {
-    color: #166ca9;
-  }
+ 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
     color:#fff;
     background:#c50101
@@ -70,9 +69,50 @@ section {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
   
-      
+ .bg_my_red
+  {
+    background-color: #c50101;
+  }
 
-  
+  .btn_my_red, .btn_my_red:focus
+  {
+    background-color: #c50101;
+    color: #ffffff; 
+  }
+  .btn_my_red:hover  
+  {
+    background-color: #9e0000;
+    color: #ffffff; 
+  }
+
+  @font-face {
+    font-family: Burn_font;
+    src: url("fonts/Burn.otf") format("opentype");
+}
+@font-face {
+  font-family: Flamer_font;
+  src: url("fonts/FLAMER.TTF") format("opentype");
+}
+@font-face {
+  font-family: hackerchaos;
+  src: url("fonts/hackerchaos.otf") format("opentype");
+}
+
+.hc_font
+{
+  font-family: hackerchaos, sans-serif;
+  color:rgb(190, 0, 0)
+}
+
+.bg_my_gray_red
+{
+  background-color: rgb(29, 2, 2);
+}
+ .border_thick
+ {
+  border: 5px solid rgb(0, 0, 0) ;
+  border-radius: 12px;
+ }
   
   
             
