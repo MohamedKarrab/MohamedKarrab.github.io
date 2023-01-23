@@ -10,10 +10,6 @@
 }          
 
 
-.fixed
-{
-    position: fixed;
-}
 #nav_block
 {
     background-color: #f8f9fa;
@@ -22,24 +18,23 @@ html
 {
     scroll-behavior: smooth;
 }
-#nav_bar
-{
-    z-index: 99;    
-}
 
 section {
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
 }
 
+#mainNav
+{
+  background-color: rgb(8, 8, 8);
+  border-radius: 5px;
+}
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
     color: #fff;
   }
   
-
-  
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #166ca9;
-  }
+  color: #c30707;
+}
   
   #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
@@ -52,12 +47,20 @@ section {
   a:focus, a:hover, a:active {
     color: #166ca9;
   }
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+    color:#fff;
+    background:#c50101
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{
+    color:#fff;
+    background:#c50101cb
+}
   
   a:hover {
     color: var(--bs-link-hover-color);
   }
   
-..nav-link {
+.nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
@@ -68,7 +71,7 @@ section {
   }
   
       
-  
+
   
   
   
