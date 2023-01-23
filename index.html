@@ -15,27 +15,30 @@
             a very enthusiastic cybersecurity guy">
       <title>Mohamed Karrab</title>
     </head>
-  <body class="bg-dark">
+  <body id="page-top" class="bg-dark" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72" >
     <!------ Header ----#181414-->
     <header>
-      <nav>
-        <div id="nav_bar" class="container-fluid  ">
-          <div id="nav_block" class="row ">
-          
-            <a class="col" href="#home"><button type="button" class="button btn btn-light col">Karrab</button></a>
-            <span class="col-7"></span>        
-            <a class="col" href="#home"> <button type="button" class="button btn btn-light ">Home</button></a>
-            <a class="col" href="#skills"><button type="button" class="button btn btn-light ">Skills</button></a>
-            <a class="col" href="#work"><button type="button" class="button btn btn-light ">Work</button></a>
-            <a class="col" href="#contact"><button type="button" class="button btn btn-light ">Contact</button></a>
-          </div>
-        </div>
-      </nav>
+      
     </header>
     <br>
     <br>
+
+    <nav id="mainNav" class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase">
+      <div class="container"><a class="navbar-brand" href="#page-top"><img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Karrab logo"> Karrab</a><button class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+          <div id="navbarResponsive" class="collapse navbar-collapse">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#work">Work</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
     <!------ Home ------>
-    <div id="home" class="home container">
+    <section id="home">
+    <div  class="home container">
       <h1 class="text-light">Mohamed Karrab</h1>
       <h2 class="text-light">Cybersecurity Enthusiast</h2>
       <script src="https://tryhackme.com/badge/1502018"></script>
@@ -44,8 +47,12 @@
       <img class="img text-light" src="images/stuff.jpeg" alt="Cybersecurity" height=90% width=90%>
       <br>
     </div>
+  </section>
+
+
     <!------ Skills ------>
-    <div id="skills" class="skills container">
+    <section id="skills">
+    <div  class="skills container">
       <h2 class="text-light">Technical Skills</h2>
       <br>
       <div>
@@ -64,8 +71,11 @@
         <p> I am also exploring cloud environments </p>
       </div>
       </section>
+
+
       <!------ Work ------>
-      <div id="work" class="work container">
+      <section id="work">
+      <div class="work container">
         <h2 class="text-light">My Work</h2>
         <br>
         <div class="row">
@@ -91,8 +101,12 @@
           </div>
         </div>
       </div>
+    </section>
+
+
       <!------ Contact ------>
-      <div id="contact" class="contact container">
+      <section id="contact">
+      <div class="contact container">
         <h2 class="text-light">Contact me</h2>
         <br>
         <div class="text-light">
@@ -122,7 +136,8 @@
           </form>
         </div>
         <div>
-          
+        </section>
+
   </body>
 </html>
 
