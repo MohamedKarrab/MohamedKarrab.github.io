@@ -84,15 +84,6 @@ section {
     background-color: #9e0000;
     color: #ffffff; 
   }
-
-  @font-face {
-    font-family: Burn_font;
-    src: url("fonts/Burn.otf") format("opentype");
-}
-@font-face {
-  font-family: Flamer_font;
-  src: url("fonts/FLAMER.TTF") format("opentype");
-}
 @font-face {
   font-family: hackerchaos;
   src: url("fonts/hackerchaos.otf") format("opentype");
@@ -113,6 +104,20 @@ section {
   border: 5px solid rgb(0, 0, 0) ;
   border-radius: 12px;
  }
+
+ /*------- scroll bar --------*/
+ body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(159, 0, 0);
+  outline: 1px solid rgb(8, 7, 0);
+}
   
   
             
