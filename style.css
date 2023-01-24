@@ -1,9 +1,6 @@
 
 
-*
-{
-    text-align: center;
-}
+
 .contact
 {
     border: 2px solid;
@@ -72,6 +69,15 @@ section {
  .bg_my_red
   {
     background-color: #c50101;
+  }
+  
+  .bg_my_dark
+  {
+    background-color: #151515;
+  }
+  .bg_my_darker
+  {
+    background-color: #1f1f1f;
   }
 
   .btn_my_red, .btn_my_red:focus
