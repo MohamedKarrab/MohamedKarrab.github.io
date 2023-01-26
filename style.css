@@ -69,7 +69,7 @@ a:hover {
   font-weight: 400;  font-style: normal;
   unicode-range: U+000-5FF; /* Download only latin glyphs */
   font-display: swap;
-  src: url("fonts/hackerchaos.woff2") format('woff2');
+  src: url("fonts/Doctor\ Glitch.otf") format('woff2');
 }
 .hc_font {
   font-family: hackerchaos, sans-serif;
