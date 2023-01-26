@@ -1,146 +1,92 @@
-
-
-
-.contact
-{
-    border: 2px solid;
-    border-radius: 5px;
-}          
-
-
-#nav_block
-{
-    background-color: #f8f9fa;
+.contact {
+  border: 2px solid;
+  border-radius: 5px;
 }
-html
-{
-    scroll-behavior: smooth;
+#nav_block {
+  background-color: #f8f9fa;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 section {
-    padding: 5rem 0 0 0;
+  padding: 5rem 0 0 0;
 }
-
-#mainNav
-{
+#mainNav {
   background-color: rgb(8, 8, 8);
   border-radius: 5px;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-    color: #fff;
-  }
-  
+  color: #fff;
+}
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #c30707;
 }
-  
-  #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #fff;
-  }
-  
-  .nav-link:hover, .nav-link:focus {
-    color: var(--bs-nav-link-hover-color);
-  }
-  
- 
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-nav-link-hover-color);
+}
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active{
-    color:#fff;
-    background:#c50101
+  color:#fff;
+  background:#c50101 
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{
-    color:#fff;
-    background:#c50101cb
+  color:#fff;
+  background:#c50101cb 
 }
-  
-  a:hover {
-    color: var(--bs-link-hover-color);
-  }
-  
+a:hover {
+  color: var(--bs-link-hover-color);
+}
 .nav-link {
-    display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  }
-  
- .bg_my_red
-  {
-    background-color: #c50101;
-  }
-  
-  .bg_my_dark
-  {
-    background-color: #151515;
-  }
-  .bg_my_darker
-  {
-    background-color: #1f1f1f;
-  }
-
-  .btn_my_red, .btn_my_red:focus
-  {
-    background-color: #c50101;
-    color: #ffffff; 
-  }
-  .btn_my_red:hover  
-  {
-    background-color: #9e0000;
-    color: #ffffff; 
-  }
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.bg_my_red {
+  background-color: #c50101;
+}
+.bg_my_dark {
+  background-color: #151515;
+}
+.bg_my_darker {
+  background-color: #1f1f1f;
+}
+.btn_my_red, .btn_my_red:focus {
+  background-color: #c50101;
+  color: #ffffff;
+}
+.btn_my_red:hover {
+  background-color: #9e0000;
+  color: #ffffff;
+}
 @font-face {
   font-family: hackerchaos;
-  src: url("fonts/hackerchaos.otf") format("opentype");
+  src: url("fonts/hackerchaos.woff2") format("opentype");
 }
-
-.hc_font
-{
+.hc_font {
   font-family: hackerchaos, sans-serif;
-  color:rgb(190, 0, 0)
+  color:rgb(190, 0, 0) 
 }
-
-.bg_my_gray_red
-{
+.bg_my_gray_red {
   background-color: rgb(29, 2, 2);
 }
- .border_thick
- {
+.border_thick {
   border: 5px solid rgb(0, 0, 0) ;
   border-radius: 12px;
- }
-
- /*------- scroll bar --------*/
- body::-webkit-scrollbar {
+}
+/*------- scroll bar --------*/
+body::-webkit-scrollbar {
   width: 1em;
 }
- 
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgb(0, 0, 0);
 }
- 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(159, 0, 0);
   outline: 1px solid rgb(8, 7, 0);
 }
-  
-  
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
