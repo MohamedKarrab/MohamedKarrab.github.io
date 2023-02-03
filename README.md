@@ -1,2 +1,2 @@
 # My Personal Portfolio
-I hope you ebjoy it!
+I hope you enjoy it!
