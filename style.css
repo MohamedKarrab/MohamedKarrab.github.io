@@ -93,3 +93,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(159, 0, 0);
   outline: 1px solid rgb(8, 7, 0);
 }
+
+#thmScript{
+  border: 5px #9e0000 solid;  
+}
