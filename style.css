@@ -50,6 +50,12 @@ a:hover {
 .bg_my_red {
   background-color: #c50101;
 }
+.my_red{
+  color: #c50101;
+}
+.my_skills_red{
+  color: #d41818;
+}
 .bg_my_dark {
   background-color: #151515;
 }
@@ -96,4 +102,7 @@ body::-webkit-scrollbar-thumb {
 
 #thmScript{
   border: 5px #9e0000 solid;  
+}
+#w_image{
+  border-radius: 0.8%;
 }
