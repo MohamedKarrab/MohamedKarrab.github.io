@@ -106,3 +106,9 @@ body::-webkit-scrollbar-thumb {
 #w_image{
   border-radius: 0.8%;
 }
+.skills_font{
+  font-family: Rockwell, Times, serif;
+}
+.rw_font{
+  font-family: Rockwell, sans-serif;
+}
