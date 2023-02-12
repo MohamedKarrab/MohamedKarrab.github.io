@@ -112,3 +112,9 @@ body::-webkit-scrollbar-thumb {
 .rw_font{
   font-family: Rockwell, sans-serif;
 }
+.contact_form, contact_form:active,.contact_form:hover,.contact_form:focus{
+  background-color: #adacac;
+}
+.contact_form::placeholder{
+  color: #2a2a2a
+}
